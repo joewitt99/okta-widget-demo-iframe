@@ -28,6 +28,9 @@ export const environment = {
       smsRecovery: true,
       selfServiceUnlock: true
     }
-  }
+  },
+  iframeConfig: {
+      baseUrl: 'http://localhost:8081'
+    }
 };
 ```
